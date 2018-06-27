@@ -1,6 +1,6 @@
 $main-bg-color: #ddd;
-$sidebar-bg-color: #034603;
-$header-bg-color: #034603;
+$sidebar-bg-color: #034622;
+$header-bg-color: #034622;
 
 
 body {
@@ -10,25 +10,24 @@ body {
 
 .framework {
   display: grid;
-  grid-template-columns: 1.5fr 10fr;
+  grid-template-columns: 1fr 10fr;
   grid-template-rows: 1fr 10fr;
   min-height: 100vh;
   grid-template-areas:
   "header header"
-  "sidebar main"
   "sidebar main";
     .header{
       color: #ddd;
       text-align: center;
       grid-area: header;
       background-color: $header-bg-color;
-      grid-column-start: 2;
-      grid-column-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 10;
       grid-row-start: 1;
       grid-row-end: 1;
     }
     .main{
-      color: rgb(33, 33, 0);
+      color: rgb(33, 33, 33);
       text-align: center;
       grid-area: main;
       background-color: $main-bg-color;
@@ -38,18 +37,28 @@ body {
       grid-row-end: 10;
     }
     .sidebar{
-      color: #ddd;
       grid-area: sidebar;
-      text-align: left;
-      margin: 0;
-      padding: 0;
       background-color: $sidebar-bg-color;
       grid-column-start: 1;
       grid-column-end: 1;
-      grid-row-start: 1;
+      grid-row-start: 2;
       grid-row-end: 10;
     }
 }
+
+#sidebarUL {
+  color: #ddd;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  padding: 0;
+  list-style-type:none;
+    a {
+      margin-top: 100px;
+    }
+}
+
 
 a {
   color: rgba(rgb(15, 231, 15), 0.7);
