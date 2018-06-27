@@ -19,9 +19,12 @@ body {
   "sidebar main main";
     .header{
       color: #ddd;
-      text-align: center;
       grid-area: header;
       background-color: $header-bg-color;
+      p {
+        text-align: left;
+        margin-left: 50px;
+      }
     }
     .main{
       color: rgb(33, 33, 33);
