@@ -1,0 +1,6 @@
+%p List of finished and unfinished projects I've been working on during the Craft Academy Boot Camp
+
+.projects
+  - data.projects.each do |project|
+    %h4= project[:name]
+    %p= project[:description]
