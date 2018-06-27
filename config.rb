@@ -1,4 +1,7 @@
 require 'extensions/build_cleaner'
+require 'extensions/haml_fix'
+
+::Middleman::Renderers::HamlTemplate.prepend ::HamlPatch
 
 configure :build do
   activate :relative_assets
@@ -7,10 +10,10 @@ end
 
 activate :livereload
 
-activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.deploy_method = :git
-end
+#activate :deploy do |deploy|
+#  deploy.build_before = true
+#  deploy.deploy_method = :git
+#end
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
