@@ -13,3 +13,5 @@
   end
 }
 p patching_haml: ::HamlPatch
+
+::Middleman::Renderers::HamlTemplate.prepend ::HamlPatch
