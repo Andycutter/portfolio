@@ -1,4 +1,4 @@
-$main-bg-color: #ddd;
+$main-bg-color: #9ecaaf;
 $sidebar-bg-color: #034622;
 $header-bg-color: #034622;
 
@@ -10,7 +10,7 @@ body {
 
 .framework {
   display: grid;
-  grid-template-columns: 1.5fr 11fr;
+  grid-template-columns: 125px 11fr;
   grid-template-rows: 1fr 11fr;
   min-height: 100vh;
   grid-template-areas:
@@ -39,7 +39,6 @@ body {
 }
 
 #sidebarUL {
-  color: rgb(184, 28, 28);
   text-align: left;
   margin-left: 15px;
   margin-right: 15px;
@@ -52,7 +51,9 @@ body {
 .sidebar_btn {
   color: #ddd;
   background-color: #034622;
-  border-color: #ddd
+  border-color: #ddd;
+  border-radius: 4px;
+  width: 90px;
 }
 
 
