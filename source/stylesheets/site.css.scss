@@ -10,8 +10,8 @@ body {
 
 .framework {
   display: grid;
-  grid-template-columns: 1fr 10fr;
-  grid-template-rows: 1fr 10fr;
+  grid-template-columns: 1.5fr 11fr;
+  grid-template-rows: 1fr 11fr;
   min-height: 100vh;
   grid-template-areas:
   "header header"
@@ -22,7 +22,7 @@ body {
       grid-area: header;
       background-color: $header-bg-color;
       grid-column-start: 1;
-      grid-column-end: 10;
+      grid-column-end: 11;
       grid-row-start: 1;
       grid-row-end: 1;
     }
@@ -32,9 +32,9 @@ body {
       grid-area: main;
       background-color: $main-bg-color;
       grid-column-start: 2;
-      grid-column-end: 10;
+      grid-column-end: 11;
       grid-row-start: 2;
-      grid-row-end: 10;
+      grid-row-end: 11;
     }
     .sidebar{
       grid-area: sidebar;
@@ -42,14 +42,14 @@ body {
       grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 2;
-      grid-row-end: 10;
+      grid-row-end: 11;
     }
 }
 
 #sidebarUL {
   color: #ddd;
   text-align: left;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 10px;
   margin-top: 0;
   padding: 0;
