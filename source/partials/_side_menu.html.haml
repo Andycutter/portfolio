@@ -1,18 +1,18 @@
 .sidebar
     %ul#sidebarUL
-        %a{ href:'index.html', title: 'Main page'} Home
-        %br/
-        %a{ href:'projects.html', title: 'Projects made during the bootcamp'} CA Projects
-        %br/
-        %a{ href:'projects.html', title: 'Various small applications'} Applications
-        %br/
-        %a{ href:'cheat.html', title: 'Cheat sheets for Git, Markdown ect.'} Cheat sheets
-        %br/
-        %a{ href:'slacker.html', title: 'Slacker tricks'} Slacker tricks
-        %br/
-        %a{ href:'https://www.random.org/', title: 'Other random stuff'} Random stuff
-        %br/
-        %a{ href:'about.html', title: 'Page about Andy'} About me
-        %br/
-        %a{ href:'contact.html', title: 'Get in touch'} Contact
-        %br/
+        %form{ action: 'index.html'}
+            %input.sidebar_btn{ type: 'submit', value: 'Home'}/
+        %form{ action: 'projects.html'}
+            %input.sidebar_btn{ type: 'submit', value: 'CA Projects'}/
+        %form{ action: 'projects.html'}
+            %input.sidebar_btn{ type: 'submit', value: 'Applications'}/
+        %form{ action: 'cheat.html'}
+            %input.sidebar_btn{ type: 'submit', value: 'Cheat sheets'}/
+        %form{ action: 'slacker.html'}
+            %input.sidebar_btn{ type: 'submit', value: 'Slacker tricks'}/
+        %form{ action: 'https://www.random.org/'}
+            %input.sidebar_btn{ type: 'submit', value: 'Random stuff'}/
+        %form{ action: 'about.html'}
+            %input.sidebar_btn{ type: 'submit', value: 'About me'}/
+        %form{ action: 'contact.html'}
+            %input.sidebar_btn{ type: 'submit', value: 'Contact'}/

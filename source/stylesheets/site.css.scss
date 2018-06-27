@@ -47,7 +47,7 @@ body {
 }
 
 #sidebarUL {
-  color: #ddd;
+  color: rgb(184, 28, 28);
   text-align: left;
   margin-left: 20px;
   margin-right: 10px;
@@ -56,6 +56,13 @@ body {
   list-style-type:none;
   line-height: 40px;
 }
+
+.sidebar_btn {
+  color: #ddd;
+  background-color: #034622;
+}
+
+
 
 a {
   color: rgba(rgb(15, 231, 15), 0.7);
