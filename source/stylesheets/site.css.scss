@@ -7,6 +7,7 @@ $colorwhite: #dddddd;
 @import "sidebar.css.scss";
 @import 'fizzbuzz.css.scss';
 @import 'bmicalc.css.scss';
+@import 'projects.css.scss';
 
 body {
   margin: 0;
@@ -29,10 +30,4 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
-}
-
-.testpro {
-  border: solid;
-  width: 500px;
-  margin: auto;
 }
