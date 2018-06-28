@@ -1,0 +1,20 @@
+#BMIbutton {
+    color: #ddd;
+    background-color: #034622;
+    border-color: #ddd;
+    border-radius: 4px;
+    width: 90px;
+    height: 30px;
+}
+
+#BMIbutton:hover {
+    background-color: rgb(83, 190, 74);
+    font-weight: bold;
+    border-width: 2px;
+}
+
+#BMIdisplay_message, #BMIdisplay_value {
+    width: 50px;
+    color: #034622;
+    text-align: center;
+}
