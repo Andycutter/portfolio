@@ -1,12 +1,14 @@
 - name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
-  #link: [not link yet](fizzbuzz.html)
+  description: Very simple HTML5 site I've build during the PrepCourse
+  link_name: Go to (external page)
+  URL: https://andycutter.github.io/
 
 - name: FizzBuzz
-  description: My first Test driven ruby project
-  #link: [I'm an inline-style link](fizzbuzz.html)
+  description: FizzBuzz game made in JavaScript
+  link_name: Go to
+  URL: fizzbuzz.html
 
-- name: Add Test
-  description: Simple test 20182606.10:18
-  #link: [no link yet](fizzbuzz.html)
-  URL: Test [I'm an inline-style link](https://www.google.com)
+- name: BMI Calculator
+  description: Calculate your BMI using this calculator made in JavaScript
+  link_name: Go to
+  URL: http://facebook.com
