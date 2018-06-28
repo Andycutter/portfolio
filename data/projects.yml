@@ -1,11 +1,12 @@
 - name: My First Website
   description: Simple HTML5 site I've build during the PrepCourse
-  link: not link yet
+  #link: [not link yet](fizzbuzz.html)
 
 - name: FizzBuzz
   description: My first Test driven ruby project
-  link: link
+  #link: [I'm an inline-style link](fizzbuzz.html)
 
 - name: Add Test
   description: Simple test 20182606.10:18
-  link: no link yet
+  #link: [no link yet](fizzbuzz.html)
+  URL: Test [I'm an inline-style link](https://www.google.com)
