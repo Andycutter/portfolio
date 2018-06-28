@@ -1,14 +1,14 @@
 - name: My First Website
   description: Very simple HTML5 site I've build during the PrepCourse
   link_name: Go to (external page)
-  URL: https://andycutter.github.io/
+  url: https://andycutter.github.io/
 
 - name: FizzBuzz
   description: FizzBuzz game made in JavaScript
   link_name: Go to
-  URL: fizzbuzz.html
+  url: fizzbuzz.html
 
 - name: BMI Calculator
   description: Calculate your BMI using this calculator made in JavaScript
   link_name: Go to
-  URL: bmicalc.html
+  url: bmicalc.html
