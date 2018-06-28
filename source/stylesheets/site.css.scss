@@ -1,6 +1,8 @@
 $main-bg-color: #9ecaaf;
 $sidebar-bg-color: #034622;
 $header-bg-color: #034622;
+$colorgreen: #034622;
+$colorwhite: #dddddd;
 
 @import "sidebar.css.scss";
 @import 'fizzbuzz.css.scss';
@@ -10,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #034622;
+  color: $colorgreen;
 }
 
 a {

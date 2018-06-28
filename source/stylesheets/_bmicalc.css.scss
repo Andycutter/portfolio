@@ -1,6 +1,6 @@
 #BMIbutton {
     color: #ddd;
-    background-color: #034622;
+    background-color: $sidebar-bg-color;
     border-color: #ddd;
     border-radius: 4px;
     width: 90px;
@@ -13,8 +13,18 @@
     border-width: 2px;
 }
 
+#BMIbutton:active {
+    background-color: #02361a;
+}
+
 #BMIdisplay_message, #BMIdisplay_value {
-    width: 50px;
-    color: #034622;
+    width: 150px;
+    color: $colorgreen;
     text-align: center;
+}
+
+#weight-in-kgs, #height-in-cm {
+    width: 75px;
+    text-align: center;
+    color: $colorgreen; 
 }

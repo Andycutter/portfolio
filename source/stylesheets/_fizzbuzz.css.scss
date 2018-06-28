@@ -1,19 +1,23 @@
 #fizz_button {
     color: #ddd;
-    background-color: #034622;
+    background-color: $sidebar-bg-color;
     border-color: #ddd;
     border-radius: 4px;
     width: 90px;
 }
 
 #fizz_button:hover {
-    background-color: rgb(83, 190, 74);
+    background-color: #3c9234;
     font-weight: bold;
     border-width: 2px;
 }
 
+#fizz_button:active {
+    background-color: #02361a;
+}
+
 #display_fizzbuzz {
-    border: 5px solid #034622;
+    border: 5px solid $colorgreen;
     border-radius: 50%;
     float: center;
     width: 100px;
@@ -22,11 +26,11 @@
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
-    color: #034622;
+    color: $colorgreen;
 }
 
 #fizz_value {
     width: 50px;
-    color: #034622;
+    color: $colorgreen;
     text-align: center;
 }
