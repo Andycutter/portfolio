@@ -9,10 +9,12 @@
         %script{src: 'javascripts/calculator.js'}        
 
     %body
+        %h1 The infamous BMI calculator
         %form#BMIcalculate
             #metric-inputs
                 %input#weight-in-kgs{placeholder: 'Weight in kg', type: 'text'}/
                 %input#height-in-cm{placeholder: 'Height in cm', type: 'text'}/
+            %br/
             %input#BMIbutton{type: 'submit', value: 'Calculate'}
         %div
             %span#BMIdisplay_value
