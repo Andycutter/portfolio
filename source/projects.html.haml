@@ -8,6 +8,7 @@
 
 .testpro
   = data.projects[0].name
+  %br/
   = data.projects[0].description
-  = data.projects[0].link_name
+  %br/
   = link_to "#{data.projects[0].link_name}", data.projects[0].url
