@@ -2,61 +2,14 @@ $main-bg-color: #9ecaaf;
 $sidebar-bg-color: #034622;
 $header-bg-color: #034622;
 
+@import "sidebar.css.scss";
+@import 'fizzbuzz.css.scss';
 
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.framework {
-  display: grid;
-  grid-template-columns: 125px 11fr;
-  grid-template-rows: 1fr 11fr;
-  min-height: 100vh;
-  grid-template-areas:
-  "sidebar header header"
-  "sidebar main main"
-  "sidebar main main";
-    .header{
-      color: #ddd;
-      grid-area: header;
-      background-color: $header-bg-color;
-      p {
-        text-align: left;
-        margin-left: 50px;
-      }
-    }
-    .main{
-      color: rgb(33, 33, 33);
-      text-align: center;
-      grid-area: main;
-      background-color: $main-bg-color;
-    }
-    .sidebar{
-      grid-area: sidebar;
-      background-color: $sidebar-bg-color;
-    }
-}
-
-#sidebarUL {
-  text-align: left;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 25px;
-  padding: 0;
-  list-style-type:none;
-  line-height: 40px;
-}
-
-.sidebar_btn {
-  color: #ddd;
-  background-color: #034622;
-  border-color: #ddd;
-  border-radius: 4px;
-  width: 90px;
-}
-
-
 
 a {
   color: rgba(rgb(15, 231, 15), 0.7);
@@ -65,4 +18,10 @@ a {
   &:hover {
     color: rgba(rgb(197, 13, 13), 0.6);
   }
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
