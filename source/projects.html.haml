@@ -1,7 +1,13 @@
-%p List of finished and unfinished projects I've been working on during the Craft Academy Boot Camp
+%h3 List of finished and unfinished projects I've been working on during the Craft Academy Boot Camp
 
 .projects
   - data.projects.each do |project|
     %h4= project[:name]
     %p= project[:description]
-    = link_to "#{project[:link_name]}", project[:URL]
+    = link_to "#{project[:link_name]}", project[:url]
+
+.testpro
+  = data.projects[0].name
+  = data.projects[0].description
+  = data.projects[0].link_name
+  = link_to "#{data.projects[0].link_name}", data.projects[0].url
