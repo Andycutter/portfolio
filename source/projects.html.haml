@@ -10,7 +10,10 @@
     %br/
     = data.projects[0].description
     %br/
-    %br
+    %br/
+    %form{ action: 'https://andycutter.github.io/'}
+      %input.sidebar_btn{ type: 'submit', value: 'GO TO'}/
+    %br/
     = link_to "#{data.projects[0].link_name}", data.projects[0].url
 
   .project-fizz-buzz
@@ -20,6 +23,9 @@
     = data.projects[1].description
     %br/
     %br/
+    %form{ action: 'fizzbuzz.html'}
+      %input.sidebar_btn{ type: 'submit', value: 'GO TO'}/
+    %br/
     = link_to "#{data.projects[1].link_name}", data.projects[1].url
 
   .project-bmi-calc
@@ -28,5 +34,8 @@
     %br/
     = data.projects[2].description
     %br/
+    %br/
+    %form{ action: 'bmicalc.html'}
+      %input.sidebar_btn{ type: 'submit', value: 'GO TO'}/
     %br/
     = link_to "#{data.projects[2].link_name}", data.projects[2].url
