@@ -8,6 +8,7 @@ $colorwhite: #dddddd;
 @import 'fizzbuzz.css.scss';
 @import 'bmicalc.css.scss';
 @import 'projects.css.scss';
+@import 'about.css.scss';
 
 body {
   margin: 0;
@@ -30,4 +31,25 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+}
+
+hr {
+  height: 2px;
+  color: $colorgreen;
+  background-color: $colorgreen;
+  font-size: 0;
+  border: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+p.standard {
+  text-align: left;
+  margin: 0px;
+  font-size: 0.875em;
 }
