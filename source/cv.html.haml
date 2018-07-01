@@ -1,4 +1,6 @@
 %h1 curriculum vitae
+.printPage
+    %button{onclick: 'printPage()'} Print page
 %hr/
 .vertical-line
 %h3.work Work experience 
@@ -19,3 +21,8 @@
         %p= education[:field]
         %p= education[:place]
         %p= education[:startdate]
+
+:javascript
+    function printPage() {
+        window.print();
+    }
