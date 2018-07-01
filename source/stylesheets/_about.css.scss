@@ -8,3 +8,48 @@ form.about {
     margin-top: 25px;
     margin-left: 50px;
 }
+
+.vertical-line {
+    border-left: 2px solid $colorgreen;
+    height: 1000px;
+    position: absolute;
+    left: 55%;
+    margin-left: -3px;
+    top: 100;
+}
+
+h3.work {
+    position: absolute;
+    left: 1%;
+    top: 12%;
+    margin-left: 125px;
+}
+
+h3.education {
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    margin-left: 125px;
+}
+
+.works {
+    position: absolute;
+    left: 1%;
+    top: 20%;
+    text-align: left;
+    margin-left: 125px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 500px;
+}
+
+.educations {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    text-align: left;
+    margin-left: 125px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 500px;
+}

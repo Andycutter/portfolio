@@ -1,2 +1,21 @@
 %h1 curriculum vitae
 %hr/
+.vertical-line
+%h3.work Work experience 
+%h3.education Education
+
+.works
+    -   data.works.each do |work|
+        %h4= work[:title]
+        %p= work[:description]
+        %p= work[:employer]
+        %p= work[:place]
+        %p= work[:startdate]
+        %p= work[:enddate]
+
+.educations
+    -   data.educations.each do |education|
+        %h4= education[:title]
+        %p= education[:field]
+        %p= education[:place]
+        %p= education[:startdate]
