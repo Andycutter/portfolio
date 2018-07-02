@@ -10,11 +10,16 @@ $colorwhite: #dddddd;
 @import 'projects.css.scss';
 @import 'about.css.scss';
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: $colorgreen;
+  height: 100%;
 }
 
 a {
